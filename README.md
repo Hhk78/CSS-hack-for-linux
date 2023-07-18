@@ -4,12 +4,13 @@ Counter-Strike:Source için saydam duvar hilesi.
 # Bağımlılıkların kurulumu
 Debian için:
 ```bash
-sudo apt install cmake build-essential gcc-multilib g++-multilib libsdl2-dev libsdl2-dev:i386
+sudo dpk --add-architecture i386 && sudo apt update
+sudo apt install cmake build-essential gcc-multilib g++-multilib libsdl2-dev libsdl2-dev:i386 gdb
 ```
 
 Arch için:
 ```bash
-sudo pacman -S cmake base-devel lib32-sdl2 gcc-multilib # you need enable multilib repo
+sudo pacman -S cmake base-devel lib32-sdl2 gcc-multilib gdb # you need enable multilib repo
 ```
 # Derleme
 ```bash
