@@ -10,7 +10,7 @@ sudo apt install cmake build-essential gcc-multilib g++-multilib libsdl2-dev lib
 
 Arch için:
 ```bash
-sudo pacman -S cmake base-devel lib32-sdl2 gcc-multilib gdb # you need enable multilib repo
+sudo pacman -S cmake base-devel lib32-sdl2 gcc-multilib gdb # multilib repoyu etkinleştirmeniz gerekebilir
 ```
 # Derleme
 ```bash
